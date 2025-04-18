@@ -31,7 +31,7 @@ apt upgrade
 #### 🦴 Greenbone Community Edition
 
 ```
-wget https://raw.githubusercontent.com/Narceliolima/projeto-allura-fipeconsulter/master/openvas_install.sh && \
+wget https://raw.githubusercontent.com/Narceliolima/cybersecurity-labvm-pre-install/refs/heads/main/openvas_install.sh && \
 	chmod +x openvas_install.sh
 ./openvas_install.sh
 ```
@@ -39,7 +39,7 @@ wget https://raw.githubusercontent.com/Narceliolima/projeto-allura-fipeconsulter
 #### 👩‍💻 DefectDojo
 
 ```
-wget https://raw.githubusercontent.com/Narceliolima/projeto-allura-fipeconsulter/master/defectdojo_install.sh && \
+wget https://raw.githubusercontent.com/Narceliolima/cybersecurity-labvm-pre-install/refs/heads/main/defectdojo_install.sh && \
 	chmod +x defectdojo_install.sh
 ./defectdojo_install.sh
 ```
