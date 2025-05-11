@@ -27,8 +27,8 @@ apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin do
 
 # Install DefectDojo
 echo "Installing DefectDojo..."
-git clone https://github.com/DefectDojo/django-DefectDojo
-docker compose -f django-DefectDojo/docker-compose.yml build
+git clone https://github.com/DefectDojo/django-DefectDojo /django-DefectDojo
+docker compose -f /django-DefectDojo/docker-compose.yml build
 
 cat << EOF > defectdojo.service
 [Unit]
@@ -37,7 +37,7 @@ Requires=docker.service
 After=docker.service
 
 [Service]
-WorkingDirectory=/home/vagrant/django-DefectDojo
+WorkingDirectory=/django-DefectDojo
 ExecStart=/usr/bin/docker compose up
 ExecStop=/usr/bin/docker compose down
 TimeoutStartSec=0

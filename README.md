@@ -36,7 +36,7 @@ wget https://raw.githubusercontent.com/Narceliolima/cybersecurity-labvm-pre-inst
 ./openvas_install.sh
 ```
 
-#### 👩‍💻 DefectDojo
+#### ⛩ DefectDojo
 
 ```
 wget https://raw.githubusercontent.com/Narceliolima/cybersecurity-labvm-pre-install/refs/heads/main/defectdojo_install.sh && \
